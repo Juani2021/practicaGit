@@ -9,6 +9,9 @@ h2 {
   font-size: 3rem;
   font-weight: bold;
 }
+body {
+  border: 2px solid red;
+}
 
 p {
   color: rebeccapurple;
