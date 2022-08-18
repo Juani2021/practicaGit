@@ -20,7 +20,8 @@ body {
   background-color: green;
   width: 196px;
   text-decoration: underline black;
-  margin: 5px;
+  margin: 15px;
+
   
 }
 
@@ -30,5 +31,31 @@ h2 {
 
 .cuerpo{
   padding: 5px;
-  margin: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  
+  
+}
+
+
+/*
+//Reglas que se aplicaran cuando el dispositivo sea más chico (maximo 600px)
+*/
+@media all and (max-width: 600px) {
+  .container {
+    background-color: black;
+    color: white;
+  
+  }
+  .titulosDos {
+    text-decoration: underline white;
+  }
+  .cuerpo{
+    flex-direction: column;
+  justify-content: space-evenly;
+
+  }
+  
+
 }
